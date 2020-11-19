@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <img src="../images/aircraft.jpg" alt="Aircraft Picture">
+        <img src="./images/desert.jpg" alt="Desert Picture">
         <nav>
             <a href="index.html">Home</a>
             <a href="Stories.html">Stories</a>
@@ -21,8 +21,46 @@
         </section>  
     </header>
     <main>
-        <!--will add main content tomorrow 20/11/2020-->
+        <article>
+            <form>
+                <label  for="fname">First Name</label>
+                <input type="text" name="fname" id="fname"/>
+                <br>
+
+                <label  for="sname">Email Address</label>
+                <input type="email" name="Sname" id="sname"/>
+                <br>
+                <br>
+                <label  for="pw">Password</label>
+                <input type="password" name="pw" id="pw"/>
+                <br>
+                <br>
+                <label  for="country">Country</label>
+                <select name="country">
+                    <option value="Austrlia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Japan" selected>Japan</option>
+
+                </select>>
+                <br>
+                <br>
+                <label  for="how">How did you hear about me?</label>
+                <input type="radio" id="web" name="how"/>Website
+                <input type="radio" id="FB" name="how"/>Facebook
+                <input type="radio" id="Search" name="how"/>Search Engine
+                <br>
+
+                <label  for="comment">Comments</label>
+                <textarea id="comment" name="comment" style="height:50px"></textarea>
+                <br> 
+                <br> 
+
+                <input type="submit" name="submit"/>
+
+            </form>
+        </article>
     </main>
+    <br>
     <footer>
         Copyright 2020. All rights reserved. Website created by Reny Bajracharya
     </footer>
